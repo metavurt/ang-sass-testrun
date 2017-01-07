@@ -1,6 +1,11 @@
 import { Component, Input, ElementRef } from 'angular2/core';
 import { scrollTo, debounce } from '../../common/utils/utils';
 
+
+interface ArrayConstructor {
+  from(arrayLike: any, mapFn?, thisArg?): Array<any>;
+}
+
 @Component({
   selector: 'main-header',
   template: `
@@ -41,6 +46,7 @@ export class HeaderComponent {
   private rect: any;
   private active: string;
   private element: HTMLElement;
+  private Array: any;
 
   constructor(element: ElementRef) {
     this.element = element.nativeElement;

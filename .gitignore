@@ -1,1 +1,7 @@
 dist
+node_modules
+typings
+assets
+
+
+.DS_Store

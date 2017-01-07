@@ -1,5 +1,5 @@
 {
-  "name": "angular2-demo",
+  "name": "ang-sass-testrun",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,31 +20,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amcdnl/angular2-demo.git"
+    "url": "git+https://github.com/metavurt/ang-sass-testrun.git"
   },
   "author": "Austin McDaniel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amcdnl/angular2-demo/issues"
+    "url": "https://github.com/metavurt/ang-sass-testrun/issues"
   },
-  "homepage": "https://github.com/amcdnl/angular2-demo#readme",
+  "homepage": "https://github.com/metavurt/ang-sass-testrun#readme",
   "dependencies": {
-    "angular2": "^2.0.0-beta.6",
-    "es6-promise": "^3.0.2",
-    "es6-shim": "^0.33.3",
-    "reflect-metadata": "0.1.2",
-    "rxjs": "5.0.0-beta.0",
+    "angular2": "^2.0.0-beta.21",
+    "rxjs": "5.0.1",
     "systemjs": "^0.19.17",
-    "zone.js": "0.5.14"
+    "zone.js": "0.7.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
     "browser-sync": "^2.11.1",
-    "concurrently": "^1.0.0",
+    "concurrently": "^3.1.0",
     "flexboxgrid": "^6.3.0",
-    "node-sass": "^3.4.2",
+    "node-sass": "^4.0.0",
     "postcss": "^5.0.14",
-    "tslint": "^3.4.0-dev.1",
-    "typescript": "^1.9.0-dev.20160215"
+    "tslint": "^4.1.1",
+    "typescript": "^2.1.4"
   }
 }
